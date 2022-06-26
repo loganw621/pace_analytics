@@ -2,4 +2,4 @@ streamlit
 pandas
 sklearn
 numpy
-PIL
+Image
