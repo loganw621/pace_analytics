@@ -56,7 +56,6 @@ st.subheader('User Input parameters')
 st.write(df) # displays the dataframe on webpage
 
 #loading dataset into predictors and output
-'''x = pd.read_excel('https://raw.githubusercontent.com/loganw621/pace_analytics/main/predictor_avron_data.xlsx')'''
 x = pd.read_excel('predictor_avron_data.xlsx')
 first_9_columns  = x.iloc[: , :9]
 first_9_columns = first_9_columns.to_numpy()
