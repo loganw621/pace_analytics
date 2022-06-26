@@ -28,15 +28,15 @@ Adjust the parameters on the left, to see how they affect the probability of pas
 st.sidebar.header('User Input Parameters')
 
 def user_input_features():
-    feature1 = st.sidebar.slider('Sixltr', 5.0, 30.0, 10.0) # slider(text, min, max, default value)
-    feature2 = st.sidebar.slider('posemo', 1.0, 15.0, 1.0)
-    feature3 = st.sidebar.slider('negemo', 0.0, 4.0, 1.0)
-    feature4 = st.sidebar.slider('achieve', 0.0, 6.0, 1.0)
-    feature5 = st.sidebar.slider('reward', 0.0, 5.0, 1.0)
-    feature6 = st.sidebar.slider('risk', 0.0, 2.0, 1.5)
-    feature7 = st.sidebar.slider('focuspast', 0.0, 6.0, 2.0)
-    feature8 = st.sidebar.slider('focuspresent', 5.0, 20.0, 10.0)
-    feature9 = st.sidebar.slider('focusfuture', 0.0, 5.0, 2.0)
+    feature1 = st.sidebar.slider('Six letter words', 5.0, 30.0, 10.0) # slider(text, min, max, default value)
+    feature2 = st.sidebar.slider('Positive emotion', 1.0, 15.0, 1.0)
+    feature3 = st.sidebar.slider('Negative emotion', 0.0, 4.0, 1.0)
+    feature4 = st.sidebar.slider('Achieve', 0.0, 6.0, 1.0)
+    feature5 = st.sidebar.slider('Reward', 0.0, 5.0, 1.0)
+    feature6 = st.sidebar.slider('Risk', 0.0, 2.0, 1.5)
+    feature7 = st.sidebar.slider('Focus past', 0.0, 6.0, 2.0)
+    feature8 = st.sidebar.slider('Focus present', 5.0, 20.0, 10.0)
+    feature9 = st.sidebar.slider('Focus future', 0.0, 5.0, 2.0)
     data = {'Sixltr': feature1,
             'posemo': feature2,
             'negemo' : feature3,
